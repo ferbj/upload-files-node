@@ -1,0 +1,26 @@
+{
+  "name": "upload-videos-aws",
+  "version": "1.0.0",
+  "description": "upload videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "video"
+  ],
+  "author": "fernando",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.623.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
