@@ -3,7 +3,8 @@ const AWS = require('aws-sdk');
 const path = require('path');
 require('dotenv/config');
 
-const ruta = 'C:/Users/Hp/Pictures/';
+//const ruta = 'C:/Users/Hp/Pictures/';
+const ruta = '/home/ubuntu/Escritorio/ProyectoMicroservicios/'
 const s3 = new AWS.S3({
     accessKeyId: process.env.ID,
     secretAccessKey: process.env.SECRET,
